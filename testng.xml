@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="5">
+  <test name="Test1">
+  <parameter name="url" value="https://google.com"/>
+  <classes>
+  <class name="TestngMethods.Day1"/>
+  <class name="TestngMethods.Day2"/>
+  <parameter name="name" value="dft"/>
+ 
+  </classes>
+  
+  </test> 
+  
+  <test name="Test2">
+  <classes>
+  <class name="TestngMethods.Testng_Methods"/>
+  
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

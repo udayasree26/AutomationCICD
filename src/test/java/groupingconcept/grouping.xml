@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="grouping">
+<test name="mygroup">
+<groups>
+<run>
+<!--  <include name="regression"/>-->
+<include name="functional"/>
+  <exclude name="sanity"/>
+</run>
+</groups>
+<classes>
+<class name="groupingconcept.logintest"/>
+<class name="groupingconcept.signuppage"/>
+<class name="groupingconcept.paymenttest"/>
+</classes>
+
+</test>
+</suite>
